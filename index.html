@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Water Level Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Well Pump Water Level Dashboard</h1>
+
+  <div id="stats" class="stats-grid">
+  <div class="card">Average Level: <span id="avg-level">Loading...</span></div>
+  <div class="card">Max Level: <span id="max-level">Loading...</span></div>
+  <div class="card">Min Level: <span id="min-level">Loading...</span></div>
+  <div class="card">Pump Runtime: <span id="pump-runtime">Loading...</span></div>
+  <div class="card">Pump Cycles: <span id="pump-cycles">Loading...</span></div>
+</div>
+
+
+  <canvas id="waterChart"></canvas>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
